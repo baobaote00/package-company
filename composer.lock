@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed49d64f8194392bc943199ab4893906",
+    "content-hash": "7cb783fb1e177b7b3c87fad3351cf5b9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -61,6 +61,68 @@
                 "source": "https://github.com/asm89/stack-cors/tree/v2.0.3"
             },
             "time": "2021-03-11T06:42:03+00:00"
+        },
+        {
+            "name": "baobaote00/package-trainer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/baobaote00/package-trainer.git",
+                "reference": "5cf046868728ebab441a14932588cedee1eace51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/baobaote00/package-trainer/zipball/5cf046868728ebab441a14932588cedee1eace51",
+                "reference": "5cf046868728ebab441a14932588cedee1eace51",
+                "shasum": ""
+            },
+            "require": {
+                "foostart/package-company": "*",
+                "gregwar/captcha": "1.1.9",
+                "intervention/image": "2.*",
+                "laravelcollective/html": "6.2.1"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "~1.4",
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~5.7",
+                "sebastian/exporter": "^2.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "database"
+                ],
+                "psr-4": {
+                    "Foostart\\Trainer\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "baobaote00",
+                    "email": "baobaote00@gmail.com",
+                    "homepage": "http://www.gachapro.xyz"
+                }
+            ],
+            "description": "Laravel authentication and ACL package with a cool admin panel. Laravel 7x",
+            "keywords": [
+                "Authentication",
+                "acl",
+                "admin panel",
+                "laravel",
+                "profile",
+                "signup"
+            ],
+            "support": {
+                "issues": "https://github.com/baobaote00/package-trainer/issues",
+                "source": "https://github.com/baobaote00/package-trainer/tree/main"
+            },
+            "time": "2021-06-30T09:16:11+00:00"
         },
         {
             "name": "brick/math",
@@ -7932,7 +7994,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "baobaote00/package-trainer": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

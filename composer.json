@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "baobaote00/package-trainer": "dev-main",
         "fideloper/proxy": "^4.4",
         "foostart/package-acl": "^10.0",
         "foostart/package-company": "^1.1",

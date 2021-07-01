@@ -10,6 +10,7 @@ $permissions = [
         'delete' => '_category-delete',
         'add' => '_category-add',
         'external' => '_external',
+
     ]
 ];
 
@@ -80,6 +81,7 @@ return [
             "link"        => '/admin/contexts/list',
             "permissions" => [$admin]
         ],
+
         //companies
         [
 

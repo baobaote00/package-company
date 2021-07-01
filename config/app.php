@@ -184,6 +184,7 @@ return [
         Intervention\Image\ImageServiceProvider::class,
 
         Foostart\Post\PostServiceProvider::class,
+        Foostart\Trainer\TrainerServiceProvider::class,
 
     ],
 
